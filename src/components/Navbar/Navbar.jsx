@@ -7,13 +7,26 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [letColorChange, setLetColorChange] = useState(false);
 
     const handleMenuOpener = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const changeColor = () => {
+        if (window.scrollY >= 100) {
+            setLetColorChange(true);
+        } else {
+            setLetColorChange(false);
+        }
+    };
+
+    window.addEventListener('scroll', changeColor);
+
   return (
-    <div className="header">
+    <div className={cn('header', {
+        'header-bg': letColorChange,
+    })}>
         <Link to={'/'}>
             <h1>Portfolio</h1>
         </Link>
