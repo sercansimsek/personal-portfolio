@@ -22,7 +22,7 @@
 
 .location {
     display: flex;
-    margin-bottom: 0.8rem;
+  
 }
 
 .location p {
@@ -44,7 +44,7 @@ h4 {
 
 p {
     font-size: 1.2rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
 }
 
 
