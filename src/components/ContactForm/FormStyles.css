@@ -19,3 +19,14 @@ form input, form textarea {
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
 }
+
+.thanks {
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    text-align: center;
+
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f4f4f4;
+}

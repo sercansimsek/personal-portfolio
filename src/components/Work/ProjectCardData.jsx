@@ -1,4 +1,4 @@
-import pro1 from '../../assets/bose.png';
+import pro1 from '../../assets/BOSE.png';
 import pro2 from '../../assets/quiz.png';
 import pro3 from '../../assets/todos.png';
 

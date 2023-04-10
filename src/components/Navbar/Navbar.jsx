@@ -3,6 +3,7 @@ import cn from 'classnames';
 import { Link } from 'react-router-dom';
 import './NavbarStyles.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import letterS from '../../assets/letter-s.png';
 
 
 export const Navbar = () => {
@@ -28,7 +29,7 @@ export const Navbar = () => {
         'header-bg': letColorChange,
     })}>
         <Link to={'/'}>
-            <h1>Portfolio</h1>
+            <img src={letterS} alt="logo" className='logoS'/>
         </Link>
 
         <ul className={cn('nav-menu', {
