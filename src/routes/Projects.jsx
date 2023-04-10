@@ -2,7 +2,8 @@ import React from 'react'
 import { Navbar } from '../components/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
 import { ProjectsContent } from '../components/ProjectsContent/ProjectsContent'
-import { ProjectCards } from '../components/ProjectCards/ProjectCards'
+// import { ProjectCards } from '../components/ProjectCards/ProjectCards'
+import { Work } from '../components/Work/Work'
 
 export const Projects = () => {
   return (
@@ -12,7 +13,7 @@ export const Projects = () => {
         heading='PROJECTS' 
         text='Some of my most recent works'
       />
-      <ProjectCards />
+      <Work />
       <Footer />
     </div>
   )
